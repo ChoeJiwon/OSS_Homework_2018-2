@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <style>
+      legend h3{
+        font-style : italic;
+        font-color : blue;
+        font-weight : bold;
+      }
+
+      table {
+        width : 550px;
+
+      }
+
+      th {
+         text-align: right;
+      }
+
+
+
+
+    </style>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Predict lol Winning Rate</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Champion Input</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Result</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Team 7</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>League of Legends Predict</h1>
+        <p class="lead">Team 7. Open source Team project</p>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 style = "border: 2px solid blue;">Champions</h2>
+
+            <fieldset >
+
+              <legend class = "lead">
+              </legend>
+              <form action="" method="GET">
+
+
+                <table>
+                  <tr>
+                    <td>
+                      <p class="lead">
+                        아군
+                      </p>
+                    </td>
+                    <td>
+                      <p  class="lead">
+                        적군
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th>
+                     <p class="lead">
+                        TOP :
+                        <select name="ATOPchampion">
+                          <option value = " "></option>
+                          <option value = "Aatrox">아트록스</option>
+                          <option value = "Ahri">아리</option>
+                          <option value = "Alistar">알리스타</option>
+                          <option value = "Amumu">아무무</option>
+                          <option value = "Anivia">애니비아</option>
+                          <option value = "Annie">애니</option>
+                          <option value = "Ashe">애쉬</option>
+                          <option value = "AurelionSol">아우렐리온 솔</option>
+                          <option value = "Azir">아지르</option>
+                          <option value = "Bard">바드</option>
+                          <option value = "Blitzcrank">블리츠크랭크</option>
+                          <option value = "Brand">브랜드</option>
+                          <option value = "Barum">브라움</option>
+                          <option value = "Caitlyn">케이틀린</option>
+                          <option value = "Camille">카밀</option>
+                          <option value = "Cassiopeia">카시오페아</option>
+                          <option value = "ChoGath">초가스</option>
+                          <option value = "Corki">코르키</option>
+                          <option value = "Darius">다리우스</option>
+                          <option value = "Diana">다이애나</option>
+                          <option value = "DrMundo">문도박사</option>
+                          <option value = "Draven">드레이븐</option>
+                          <option value = "Ekko">에코</option>
+                          <option value = "Elise">엘리스</option>
+                          <option value = "Evelynn">이블린</option>
+                          <option value = "Ezreal">이즈리얼</option>
+                          <option value = "Fiddlesticks">피들스틱</option>
+                          <option value = "Fiora">피오라</option>
+                          <option value = "Fizz">피즈</option>
+                          <option value = "Galio">갈리오</option>
+                          <option value = "Gangplank">갱플랭크</option>
+                          <option value = "Garen">가랜</option>
+                          <option value = "Gnar">나르</option>
+                          <option value = "Gragas">그라가스</option>
+                          <option value = "Graves">그레이브즈</option>
+                          <option value = "Hecarim">헤카림</option>
+                          <option value = "Heimerdinger">하이머딩거</option>
+                          <option value = "Illaoi">일라오이</option>
+                          <option value = "Irelia">이렐리아</option>
+                          <option value = "Ivern">아이번</option>
+                          <option value = "Janna">잔나</option>
+                          <option value = "JarvanIV">자르반4세</option>
+                          <option value = "Jax">잭스</option>
+                          <option value = "Jayce">제이스</option>
+                          <option value = "Jhin">진</option>
+                          <option value = "Jinx">징크스</option>
+                          <option value = "KaiSa">카이사</option>
+                          <option value = "Kalista">칼리스타</option>
+                          <option value = "Karma">카르마</option>
+                          <option value = "Karthus">카서스</option>
+                          <option value = "Kassadin">카사딘</option>
+                          <option value = "Katarina">카타리나</option>
+                          <option value = "Kayle">케일</option>
+                          <option value = "Kayn">케인</option>
+                          <option value = "Kennen">케넨</option>
+                          <option value = "KhaZix">카직스</option>
+                          <option value = "Kindred">킨드레드</option>
+                          <option value = "Kled">클래드</option>
+                          <option value = "KogMaw">코그모</option>
+                          <option value = "LeBlanc">르블랑</option>
+                          <option value = "LeeSin">리신</option>
+                          <option value = "Leona">레오나</option>
+                          <option value = "Lissandra">리산드라</option>
+                          <option value = "Lucian">루시안</option>
+                          <option value = "Lulu">룰루</option>
+                          <option value = "Lux">럭스</option>
+                          <option value = "Malphite">말파이트</option>
+                          <option value = "Malzahar">말자하</option>
+                          <option value = "Maokai">마오카이</option>
+                          <option value = "MasterYi">마스터이</option>
+                          <option value = "MissFortune">미스포춘</option>
+                          <option value = "Mordekaiser">모데카이저</option>
+                          <option value = "Morgana">모르가나</option>
+                          <option value = "Nami">나미</option>
+                          <option value = "Nasus">나서스</option>
+                          <option value = "Nautilus">노틸러스</option>
+                          <option value = "Nidalee">니달리</option>
+                          <option value = "Nocturne">녹턴</option>
+                          <option value = "NunuWillump">누누와윌럼프</option>
+                          <option value = "Olaf">올라프</option>
+                          <option value = "Orianna">오리아나</option>
+                          <option value = "Ornn">오른</option>
+                          <option value = "Pantheon">판테온</oPantheonption>
+                          <option value = "Poppy">뽀삐</option>
+                          <option value = "Pyke">파이크</option>
+                          <option value = "Quinn">퀸</option>
+                          <option value = "Rakan">라칸</option>
+                          <option value = "Rammus">람머스</option>
+                          <option value = "RekSai">렉사이</option>
+                          <option value = "Renekton">레넥톤</option>
+                          <option value = "Rengar">렝가</option>
+                          <option value = "Riven">리븐</option>
+                          <option value = "Rumble">럼블</option>
+                          <option value = "Ryze">라이즈</option>
+                          <option value = "Sejuani">세주아니</option>
+                          <option value = "Shaco">샤코</option>
+                          <option value = "Shen">쉔</option>
+                          <option value = "Shyvana">쉬바나</option>
+                          <option value = "Singed">신지드</option>
+                          <option value = "Sion">사이온</option>
+                          <option value = "Sivir">시비르</option>
+                          <option value = "Skarner">스카너</option>
+                          <option value = "Sona">소나</option>
+                          <option value = "Soraka">소라카</option>
+                          <option value = "Swain">스웨인</option>
+                          <option value = "Syndra">신드라</option>
+                          <option value = "TahmKench">탐캔치</option>
+                          <option value = "Taliyah">탈리야</option>
+                          <option value = "Talon">탈론</option>
+                          <option value = "Taric">타릭</option>
+                          <option value = "Teemo">티모</option>
+                          <option value = "Thresh">쓰레쉬</option>
+                          <option value = "Tristana">트리스타나</option>
+                          <option value = "Trundle">트런들</option>
+                          <option value = "Tryndamere">트린다미어</option>
+                          <option value = "TwistedFate">트위스트페이트</option>
+                          <option value = "Twitch">트위치</option>
+                          <option value = "Udyr">우디르</option>
+                          <option value = "Urgot">우르곳</option>
+                          <option value = "Varus">바루스</option>
+                          <option value = "Vayne">베인</option>
+                          <option value = "Veigar">베이가</option>
+                          <option value = "VelKoz">벨코즈</option>
+                          <option value = "Vi">바이</option>
+                          <option value = "Viktor">빅토르</option>
+                          <option value = "Vladimir">블라디미르</option>
+                          <option value = "Volibear">볼리베어</option>
+                          <option value = "Warwick">워윅</option>
+                          <option value = "Wukong">오공</option>
+                          <option value = "Xayah">자야</option>
+                          <option value = "Xerath">제라스</option>
+                          <option value = "XinZhao">신짜오</option>
+                          <option value = "Yasuo">야스오</option>
+                          <option value = "Yorick">요릭</option>
+                          <option value = "Zac">자크</option>
+                          <option value = "Zed">제드</option>
+                          <option value = "Ziggs">직스</option>
+                          <option value = "Zilean">질리언</option>
+                          <option value = "Zoe">조이</option>
+                          <option value = "Zyra">자이라</option>
+                        </select>
+                        <br/>
+
+                        JUNGLE :
+                        <select name ="AJUNGLEchampion">
+                          <option value = " "></option>
+                          <option value = "Aatrox">아트록스</option>
+                          <option value = "Ahri">아리</option>
+                          <option value = "Alistar">알리스타</option>
+                          <option value = "Amumu">아무무</option>
+                          <option value = "Anivia">애니비아</option>
+                          <option value = "Annie">애니</option>
+                          <option value = "Ashe">애쉬</option>
+                          <option value = "AurelionSol">아우렐리온 솔</option>
+                          <option value = "Azir">아지르</option>
+                          <option value = "Bard">바드</option>
+                          <option value = "Blitzcrank">블리츠크랭크</option>
+                          <option value = "Brand">브랜드</option>
+                          <option value = "Barum">브라움</option>
+                          <option value = "Caitlyn">케이틀린</option>
+                          <option value = "Camille">카밀</option>
+                          <option value = "Cassiopeia">카시오페아</option>
+                          <option value = "ChoGath">초가스</option>
+                          <option value = "Corki">코르키</option>
+                          <option value = "Darius">다리우스</option>
+                          <option value = "Diana">다이애나</option>
+                          <option value = "DrMundo">문도박사</option>
+                          <option value = "Draven">드레이븐</option>
+                          <option value = "Ekko">에코</option>
+                          <option value = "Elise">엘리스</option>
+                          <option value = "Evelynn">이블린</option>
+                          <option value = "Ezreal">이즈리얼</option>
+                          <option value = "Fiddlesticks">피들스틱</option>
+                          <option value = "Fiora">피오라</option>
+                          <option value = "Fizz">피즈</option>
+                          <option value = "Galio">갈리오</option>
+                          <option value = "Gangplank">갱플랭크</option>
+                          <option value = "Garen">가랜</option>
+                          <option value = "Gnar">나르</option>
+                          <option value = "Gragas">그라가스</option>
+                          <option value = "Graves">그레이브즈</option>
+                          <option value = "Hecarim">헤카림</option>
+                          <option value = "Heimerdinger">하이머딩거</option>
+                          <option value = "Illaoi">일라오이</option>
+                          <option value = "Irelia">이렐리아</option>
+                          <option value = "Ivern">아이번</option>
+                          <option value = "Janna">잔나</option>
+                          <option value = "JarvanIV">자르반4세</option>
+                          <option value = "Jax">잭스</option>
+                          <option value = "Jayce">제이스</option>
+                          <option value = "Jhin">진</option>
+                          <option value = "Jinx">징크스</option>
+                          <option value = "KaiSa">카이사</option>
+                          <option value = "Kalista">칼리스타</option>
+                          <option value = "Karma">카르마</option>
+                          <option value = "Karthus">카서스</option>
+                          <option value = "Kassadin">카사딘</option>
+                          <option value = "Katarina">카타리나</option>
+                          <option value = "Kayle">케일</option>
+                          <option value = "Kayn">케인</option>
+                          <option value = "Kennen">케넨</option>
+                          <option value = "KhaZix">카직스</option>
+                          <option value = "Kindred">킨드레드</option>
+                          <option value = "Kled">클래드</option>
+                          <option value = "KogMaw">코그모</option>
+                          <option value = "LeBlanc">르블랑</option>
+                          <option value = "LeeSin">리신</option>
+                          <option value = "Leona">레오나</option>
+                          <option value = "Lissandra">리산드라</option>
+                          <option value = "Lucian">루시안</option>
+                          <option value = "Lulu">룰루</option>
+                          <option value = "Lux">럭스</option>
+                          <option value = "Malphite">말파이트</option>
+                          <option value = "Malzahar">말자하</option>
+                          <option value = "Maokai">마오카이</option>
+                          <option value = "MasterYi">마스터이</option>
+                          <option value = "MissFortune">미스포춘</option>
+                          <option value = "Mordekaiser">모데카이저</option>
+                          <option value = "Morgana">모르가나</option>
+                          <option value = "Nami">나미</option>
+                          <option value = "Nasus">나서스</option>
+                          <option value = "Nautilus">노틸러스</option>
+                          <option value = "Nidalee">니달리</option>
+                          <option value = "Nocturne">녹턴</option>
+                          <option value = "NunuWillump">누누와윌럼프</option>
+                          <option value = "Olaf">올라프</option>
+                          <option value = "Orianna">오리아나</option>
+                          <option value = "Ornn">오른</option>
+                          <option value = "Pantheon">판테온</oPantheonption>
+                          <option value = "Poppy">뽀삐</option>
+                          <option value = "Pyke">파이크</option>
+                          <option value = "Quinn">퀸</option>
+                          <option value = "Rakan">라칸</option>
+                          <option value = "Rammus">람머스</option>
+                          <option value = "RekSai">렉사이</option>
+                          <option value = "Renekton">레넥톤</option>
+                          <option value = "Rengar">렝가</option>
+                          <option value = "Riven">리븐</option>
+                          <option value = "Rumble">럼블</option>
+                          <option value = "Ryze">라이즈</option>
+                          <option value = "Sejuani">세주아니</option>
+                          <option value = "Shaco">샤코</option>
+                          <option value = "Shen">쉔</option>
+                          <option value = "Shyvana">쉬바나</option>
+                          <option value = "Singed">신지드</option>
+                          <option value = "Sion">사이온</option>
+                          <option value = "Sivir">시비르</option>
+                          <option value = "Skarner">스카너</option>
+                          <option value = "Sona">소나</option>
+                          <option value = "Soraka">소라카</option>
+                          <option value = "Swain">스웨인</option>
+                          <option value = "Syndra">신드라</option>
+                          <option value = "TahmKench">탐캔치</option>
+                          <option value = "Taliyah">탈리야</option>
+                          <option value = "Talon">탈론</option>
+                          <option value = "Taric">타릭</option>
+                          <option value = "Teemo">티모</option>
+                          <option value = "Thresh">쓰레쉬</option>
+                          <option value = "Tristana">트리스타나</option>
+                          <option value = "Trundle">트런들</option>
+                          <option value = "Tryndamere">트린다미어</option>
+                          <option value = "TwistedFate">트위스트페이트</option>
+                          <option value = "Twitch">트위치</option>
+                          <option value = "Udyr">우디르</option>
+                          <option value = "Urgot">우르곳</option>
+                          <option value = "Varus">바루스</option>
+                          <option value = "Vayne">베인</option>
+                          <option value = "Veigar">베이가</option>
+                          <option value = "VelKoz">벨코즈</option>
+                          <option value = "Vi">바이</option>
+                          <option value = "Viktor">빅토르</option>
+                          <option value = "Vladimir">블라디미르</option>
+                          <option value = "Volibear">볼리베어</option>
+                          <option value = "Warwick">워윅</option>
+                          <option value = "Wukong">오공</option>
+                          <option value = "Xayah">자야</option>
+                          <option value = "Xerath">제라스</option>
+                          <option value = "XinZhao">신짜오</option>
+                          <option value = "Yasuo">야스오</option>
+                          <option value = "Yorick">요릭</option>
+                          <option value = "Zac">자크</option>
+                          <option value = "Zed">제드</option>
+                          <option value = "Ziggs">직스</option>
+                          <option value = "Zilean">질리언</option>
+                          <option value = "Zoe">조이</option>
+                          <option value = "Zyra">자이라</option>
+                        </select>
+                        <br/>
+                         MID :
+                        <select name="AMIDchampion">
+                          <option value = " "></option>
+                          <option value = "Aatrox">아트록스</option>
+                          <option value = "Ahri">아리</option>
+                          <option value = "Alistar">알리스타</option>
+                          <option value = "Amumu">아무무</option>
+                          <option value = "Anivia">애니비아</option>
+                          <option value = "Annie">애니</option>
+                          <option value = "Ashe">애쉬</option>
+                          <option value = "AurelionSol">아우렐리온 솔</option>
+                          <option value = "Azir">아지르</option>
+                          <option value = "Bard">바드</option>
+                          <option value = "Blitzcrank">블리츠크랭크</option>
+                          <option value = "Brand">브랜드</option>
+                          <option value = "Barum">브라움</option>
+                          <option value = "Caitlyn">케이틀린</option>
+                          <option value = "Camille">카밀</option>
+                          <option value = "Cassiopeia">카시오페아</option>
+                          <option value = "ChoGath">초가스</option>
+                          <option value = "Corki">코르키</option>
+                          <option value = "Darius">다리우스</option>
+                          <option value = "Diana">다이애나</option>
+                          <option value = "DrMundo">문도박사</option>
+                          <option value = "Draven">드레이븐</option>
+                          <option value = "Ekko">에코</option>
+                          <option value = "Elise">엘리스</option>
+                          <option value = "Evelynn">이블린</option>
+                          <option value = "Ezreal">이즈리얼</option>
+                          <option value = "Fiddlesticks">피들스틱</option>
+                          <option value = "Fiora">피오라</option>
+                          <option value = "Fizz">피즈</option>
+                          <option value = "Galio">갈리오</option>
+                          <option value = "Gangplank">갱플랭크</option>
+                          <option value = "Garen">가랜</option>
+                          <option value = "Gnar">나르</option>
+                          <option value = "Gragas">그라가스</option>
+                          <option value = "Graves">그레이브즈</option>
+                          <option value = "Hecarim">헤카림</option>
+                          <option value = "Heimerdinger">하이머딩거</option>
+                          <option value = "Illaoi">일라오이</option>
+                          <option value = "Irelia">이렐리아</option>
+                          <option value = "Ivern">아이번</option>
+                          <option value = "Janna">잔나</option>
+                          <option value = "JarvanIV">자르반4세</option>
+                          <option value = "Jax">잭스</option>
+                          <option value = "Jayce">제이스</option>
+                          <option value = "Jhin">진</option>
+                          <option value = "Jinx">징크스</option>
+                          <option value = "KaiSa">카이사</option>
+                          <option value = "Kalista">칼리스타</option>
+                          <option value = "Karma">카르마</option>
+                          <option value = "Karthus">카서스</option>
+                          <option value = "Kassadin">카사딘</option>
+                          <option value = "Katarina">카타리나</option>
+                          <option value = "Kayle">케일</option>
+                          <option value = "Kayn">케인</option>
+                          <option value = "Kennen">케넨</option>
+                          <option value = "KhaZix">카직스</option>
+                          <option value = "Kindred">킨드레드</option>
+                          <option value = "Kled">클래드</option>
+                          <option value = "KogMaw">코그모</option>
+                          <option value = "LeBlanc">르블랑</option>
+                          <option value = "LeeSin">리신</option>
+                          <option value = "Leona">레오나</option>
+                          <option value = "Lissandra">리산드라</option>
+                          <option value = "Lucian">루시안</option>
+                          <option value = "Lulu">룰루</option>
+                          <option value = "Lux">럭스</option>
+                          <option value = "Malphite">말파이트</option>
+                          <option value = "Malzahar">말자하</option>
+                          <option value = "Maokai">마오카이</option>
+                          <option value = "MasterYi">마스터이</option>
+                          <option value = "MissFortune">미스포춘</option>
+                          <option value = "Mordekaiser">모데카이저</option>
+                          <option value = "Morgana">모르가나</option>
+                          <option value = "Nami">나미</option>
+                          <option value = "Nasus">나서스</option>
+                          <option value = "Nautilus">노틸러스</option>
+                          <option value = "Nidalee">니달리</option>
+                          <option value = "Nocturne">녹턴</option>
+                          <option value = "NunuWillump">누누와윌럼프</option>
+                          <option value = "Olaf">올라프</option>
+                          <option value = "Orianna">오리아나</option>
+                          <option value = "Ornn">오른</option>
+                          <option value = "Pantheon">판테온</oPantheonption>
+                          <option value = "Poppy">뽀삐</option>
+                          <option value = "Pyke">파이크</option>
+                          <option value = "Quinn">퀸</option>
+                          <option value = "Rakan">라칸</option>
+                          <option value = "Rammus">람머스</option>
+                          <option value = "RekSai">렉사이</option>
+                          <option value = "Renekton">레넥톤</option>
+                          <option value = "Rengar">렝가</option>
+                          <option value = "Riven">리븐</option>
+                          <option value = "Rumble">럼블</option>
+                          <option value = "Ryze">라이즈</option>
+                          <option value = "Sejuani">세주아니</option>
+                          <option value = "Shaco">샤코</option>
+                          <option value = "Shen">쉔</option>
+                          <option value = "Shyvana">쉬바나</option>
+                          <option value = "Singed">신지드</option>
+                          <option value = "Sion">사이온</option>
+                          <option value = "Sivir">시비르</option>
+                          <option value = "Skarner">스카너</option>
+                          <option value = "Sona">소나</option>
+                          <option value = "Soraka">소라카</option>
+                          <option value = "Swain">스웨인</option>
+                          <option value = "Syndra">신드라</option>
+                          <option value = "TahmKench">탐캔치</option>
+                          <option value = "Taliyah">탈리야</option>
+                          <option value = "Talon">탈론</option>
+                          <option value = "Taric">타릭</option>
+                          <option value = "Teemo">티모</option>
+                          <option value = "Thresh">쓰레쉬</option>
+                          <option value = "Tristana">트리스타나</option>
+                          <option value = "Trundle">트런들</option>
+                          <option value = "Tryndamere">트린다미어</option>
+                          <option value = "TwistedFate">트위스트페이트</option>
+                          <option value = "Twitch">트위치</option>
+                          <option value = "Udyr">우디르</option>
+                          <option value = "Urgot">우르곳</option>
+                          <option value = "Varus">바루스</option>
+                          <option value = "Vayne">베인</option>
+                          <option value = "Veigar">베이가</option>
+                          <option value = "VelKoz">벨코즈</option>
+                          <option value = "Vi">바이</option>
+                          <option value = "Viktor">빅토르</option>
+                          <option value = "Vladimir">블라디미르</option>
+                          <option value = "Volibear">볼리베어</option>
+                          <option value = "Warwick">워윅</option>
+                          <option value = "Wukong">오공</option>
+                          <option value = "Xayah">자야</option>
+                          <option value = "Xerath">제라스</option>
+                          <option value = "XinZhao">신짜오</option>
+                          <option value = "Yasuo">야스오</option>
+                          <option value = "Yorick">요릭</option>
+                          <option value = "Zac">자크</option>
+                          <option value = "Zed">제드</option>
+                          <option value = "Ziggs">직스</option>
+                          <option value = "Zilean">질리언</option>
+                          <option value = "Zoe">조이</option>
+                          <option value = "Zyra">자이라</option>
+                        </select>
+                        <br/>
+                          ADCARRY :
+                        <select name="AADCARRYchampion">
+                          <option value = " "></option>
+                          <option value = "Aatrox">아트록스</option>
+                          <option value = "Ahri">아리</option>
+                          <option value = "Alistar">알리스타</option>
+                          <option value = "Amumu">아무무</option>
+                          <option value = "Anivia">애니비아</option>
+                          <option value = "Annie">애니</option>
+                          <option value = "Ashe">애쉬</option>
+                          <option value = "AurelionSol">아우렐리온 솔</option>
+                          <option value = "Azir">아지르</option>
+                          <option value = "Bard">바드</option>
+                          <option value = "Blitzcrank">블리츠크랭크</option>
+                          <option value = "Brand">브랜드</option>
+                          <option value = "Barum">브라움</option>
+                          <option value = "Caitlyn">케이틀린</option>
+                          <option value = "Camille">카밀</option>
+                          <option value = "Cassiopeia">카시오페아</option>
+                          <option value = "ChoGath">초가스</option>
+                          <option value = "Corki">코르키</option>
+                          <option value = "Darius">다리우스</option>
+                          <option value = "Diana">다이애나</option>
+                          <option value = "DrMundo">문도박사</option>
+                          <option value = "Draven">드레이븐</option>
+                          <option value = "Ekko">에코</option>
+                          <option value = "Elise">엘리스</option>
+                          <option value = "Evelynn">이블린</option>
+                          <option value = "Ezreal">이즈리얼</option>
+                          <option value = "Fiddlesticks">피들스틱</option>
+                          <option value = "Fiora">피오라</option>
+                          <option value = "Fizz">피즈</option>
+                          <option value = "Galio">갈리오</option>
+                          <option value = "Gangplank">갱플랭크</option>
+                          <option value = "Garen">가랜</option>
+                          <option value = "Gnar">나르</option>
+                          <option value = "Gragas">그라가스</option>
+                          <option value = "Graves">그레이브즈</option>
+                          <option value = "Hecarim">헤카림</option>
+                          <option value = "Heimerdinger">하이머딩거</option>
+                          <option value = "Illaoi">일라오이</option>
+                          <option value = "Irelia">이렐리아</option>
+                          <option value = "Ivern">아이번</option>
+                          <option value = "Janna">잔나</option>
+                          <option value = "JarvanIV">자르반4세</option>
+                          <option value = "Jax">잭스</option>
+                          <option value = "Jayce">제이스</option>
+                          <option value = "Jhin">진</option>
+                          <option value = "Jinx">징크스</option>
+                          <option value = "KaiSa">카이사</option>
+                          <option value = "Kalista">칼리스타</option>
+                          <option value = "Karma">카르마</option>
+                          <option value = "Karthus">카서스</option>
+                          <option value = "Kassadin">카사딘</option>
+                          <option value = "Katarina">카타리나</option>
+                          <option value = "Kayle">케일</option>
+                          <option value = "Kayn">케인</option>
+                          <option value = "Kennen">케넨</option>
+                          <option value = "KhaZix">카직스</option>
+                          <option value = "Kindred">킨드레드</option>
+                          <option value = "Kled">클래드</option>
+                          <option value = "KogMaw">코그모</option>
+                          <option value = "LeBlanc">르블랑</option>
+                          <option value = "LeeSin">리신</option>
+                          <option value = "Leona">레오나</option>
+                          <option value = "Lissandra">리산드라</option>
+                          <option value = "Lucian">루시안</option>
+                          <option value = "Lulu">룰루</option>
+                          <option value = "Lux">럭스</option>
+                          <option value = "Malphite">말파이트</option>
+                          <option value = "Malzahar">말자하</option>
+                          <option value = "Maokai">마오카이</option>
+                          <option value = "MasterYi">마스터이</option>
+                          <option value = "MissFortune">미스포춘</option>
+                          <option value = "Mordekaiser">모데카이저</option>
+                          <option value = "Morgana">모르가나</option>
+                          <option value = "Nami">나미</option>
+                          <option value = "Nasus">나서스</option>
+                          <option value = "Nautilus">노틸러스</option>
+                          <option value = "Nidalee">니달리</option>
+                          <option value = "Nocturne">녹턴</option>
+                          <option value = "NunuWillump">누누와윌럼프</option>
+                          <option value = "Olaf">올라프</option>
+                          <option value = "Orianna">오리아나</option>
+                          <option value = "Ornn">오른</option>
+                          <option value = "Pantheon">판테온</oPantheonption>
+                          <option value = "Poppy">뽀삐</option>
+                          <option value = "Pyke">파이크</option>
+                          <option value = "Quinn">퀸</option>
+                          <option value = "Rakan">라칸</option>
+                          <option value = "Rammus">람머스</option>
+                          <option value = "RekSai">렉사이</option>
+                          <option value = "Renekton">레넥톤</option>
+                          <option value = "Rengar">렝가</option>
+                          <option value = "Riven">리븐</option>
+                          <option value = "Rumble">럼블</option>
+                          <option value = "Ryze">라이즈</option>
+                          <option value = "Sejuani">세주아니</option>
+                          <option value = "Shaco">샤코</option>
+                          <option value = "Shen">쉔</option>
+                          <option value = "Shyvana">쉬바나</option>
+                          <option value = "Singed">신지드</option>
+                          <option value = "Sion">사이온</option>
+                          <option value = "Sivir">시비르</option>
+                          <option value = "Skarner">스카너</option>
+                          <option value = "Sona">소나</option>
+                          <option value = "Soraka">소라카</option>
+                          <option value = "Swain">스웨인</option>
+                          <option value = "Syndra">신드라</option>
+                          <option value = "TahmKench">탐캔치</option>
+                          <option value = "Taliyah">탈리야</option>
+                          <option value = "Talon">탈론</option>
+                          <option value = "Taric">타릭</option>
+                          <option value = "Teemo">티모</option>
+                          <option value = "Thresh">쓰레쉬</option>
+                          <option value = "Tristana">트리스타나</option>
+                          <option value = "Trundle">트런들</option>
+                          <option value = "Tryndamere">트린다미어</option>
+                          <option value = "TwistedFate">트위스트페이트</option>
+                          <option value = "Twitch">트위치</option>
+                          <option value = "Udyr">우디르</option>
+                          <option value = "Urgot">우르곳</option>
+                          <option value = "Varus">바루스</option>
+                          <option value = "Vayne">베인</option>
+                          <option value = "Veigar">베이가</option>
+                          <option value = "VelKoz">벨코즈</option>
+                          <option value = "Vi">바이</option>
+                          <option value = "Viktor">빅토르</option>
+                          <option value = "Vladimir">블라디미르</option>
+                          <option value = "Volibear">볼리베어</option>
+                          <option value = "Warwick">워윅</option>
+                          <option value = "Wukong">오공</option>
+                          <option value = "Xayah">자야</option>
+                          <option value = "Xerath">제라스</option>
+                          <option value = "XinZhao">신짜오</option>
+                          <option value = "Yasuo">야스오</option>
+                          <option value = "Yorick">요릭</option>
+                          <option value = "Zac">자크</option>
+                          <option value = "Zed">제드</option>
+                          <option value = "Ziggs">직스</option>
+                          <option value = "Zilean">질리언</option>
+                          <option value = "Zoe">조이</option>
+                          <option value = "Zyra">자이라</option>
+                        </select>
+                        <br/>
+
+                        SUPPORT :
+                        <select name="ASUPPORTchampion">
+                          <option value = " "></option>
+                          <option value = "Aatrox">아트록스</option>
+                          <option value = "Ahri">아리</option>
+                          <option value = "Alistar">알리스타</option>
+                          <option value = "Amumu">아무무</option>
+                          <option value = "Anivia">애니비아</option>
+                          <option value = "Annie">애니</option>
+                          <option value = "Ashe">애쉬</option>
+                          <option value = "AurelionSol">아우렐리온 솔</option>
+                          <option value = "Azir">아지르</option>
+                          <option value = "Bard">바드</option>
+                          <option value = "Blitzcrank">블리츠크랭크</option>
+                          <option value = "Brand">브랜드</option>
+                          <option value = "Barum">브라움</option>
+                          <option value = "Caitlyn">케이틀린</option>
+                          <option value = "Camille">카밀</option>
+                          <option value = "Cassiopeia">카시오페아</option>
+                          <option value = "ChoGath">초가스</option>
+                          <option value = "Corki">코르키</option>
+                          <option value = "Darius">다리우스</option>
+                          <option value = "Diana">다이애나</option>
+                          <option value = "DrMundo">문도박사</option>
+                          <option value = "Draven">드레이븐</option>
+                          <option value = "Ekko">에코</option>
+                          <option value = "Elise">엘리스</option>
+                          <option value = "Evelynn">이블린</option>
+                          <option value = "Ezreal">이즈리얼</option>
+                          <option value = "Fiddlesticks">피들스틱</option>
+                          <option value = "Fiora">피오라</option>
+                          <option value = "Fizz">피즈</option>
+                          <option value = "Galio">갈리오</option>
+                          <option value = "Gangplank">갱플랭크</option>
+                          <option value = "Garen">가랜</option>
+                          <option value = "Gnar">나르</option>
+                          <option value = "Gragas">그라가스</option>
+                          <option value = "Graves">그레이브즈</option>
+                          <option value = "Hecarim">헤카림</option>
+                          <option value = "Heimerdinger">하이머딩거</option>
+                          <option value = "Illaoi">일라오이</option>
+                          <option value = "Irelia">이렐리아</option>
+                          <option value = "Ivern">아이번</option>
+                          <option value = "Janna">잔나</option>
+                          <option value = "JarvanIV">자르반4세</option>
+                          <option value = "Jax">잭스</option>
+                          <option value = "Jayce">제이스</option>
+                          <option value = "Jhin">진</option>
+                          <option value = "Jinx">징크스</option>
+                          <option value = "KaiSa">카이사</option>
+                          <option value = "Kalista">칼리스타</option>
+                          <option value = "Karma">카르마</option>
+                          <option value = "Karthus">카서스</option>
+                          <option value = "Kassadin">카사딘</option>
+                          <option value = "Katarina">카타리나</option>
+                          <option value = "Kayle">케일</option>
+                          <option value = "Kayn">케인</option>
+                          <option value = "Kennen">케넨</option>
+                          <option value = "KhaZix">카직스</option>
+                          <option value = "Kindred">킨드레드</option>
+                          <option value = "Kled">클래드</option>
+                          <option value = "KogMaw">코그모</option>
+                          <option value = "LeBlanc">르블랑</option>
+                          <option value = "LeeSin">리신</option>
+                          <option value = "Leona">레오나</option>
+                          <option value = "Lissandra">리산드라</option>
+                          <option value = "Lucian">루시안</option>
+                          <option value = "Lulu">룰루</option>
+                          <option value = "Lux">럭스</option>
+                          <option value = "Malphite">말파이트</option>
+                          <option value = "Malzahar">말자하</option>
+                          <option value = "Maokai">마오카이</option>
+                          <option value = "MasterYi">마스터이</option>
+                          <option value = "MissFortune">미스포춘</option>
+                          <option value = "Mordekaiser">모데카이저</option>
+                          <option value = "Morgana">모르가나</option>
+                          <option value = "Nami">나미</option>
+                          <option value = "Nasus">나서스</option>
+                          <option value = "Nautilus">노틸러스</option>
+                          <option value = "Nidalee">니달리</option>
+                          <option value = "Nocturne">녹턴</option>
+                          <option value = "NunuWillump">누누와윌럼프</option>
+                          <option value = "Olaf">올라프</option>
+                          <option value = "Orianna">오리아나</option>
+                          <option value = "Ornn">오른</option>
+                          <option value = "Pantheon">판테온</oPantheonption>
+                          <option value = "Poppy">뽀삐</option>
+                          <option value = "Pyke">파이크</option>
+                          <option value = "Quinn">퀸</option>
+                          <option value = "Rakan">라칸</option>
+                          <option value = "Rammus">람머스</option>
+                          <option value = "RekSai">렉사이</option>
+                          <option value = "Renekton">레넥톤</option>
+                          <option value = "Rengar">렝가</option>
+                          <option value = "Riven">리븐</option>
+                          <option value = "Rumble">럼블</option>
+                          <option value = "Ryze">라이즈</option>
+                          <option value = "Sejuani">세주아니</option>
+                          <option value = "Shaco">샤코</option>
+                          <option value = "Shen">쉔</option>
+                          <option value = "Shyvana">쉬바나</option>
+                          <option value = "Singed">신지드</option>
+                          <option value = "Sion">사이온</option>
+                          <option value = "Sivir">시비르</option>
+                          <option value = "Skarner">스카너</option>
+                          <option value = "Sona">소나</option>
+                          <option value = "Soraka">소라카</option>
+                          <option value = "Swain">스웨인</option>
+                          <option value = "Syndra">신드라</option>
+                          <option value = "TahmKench">탐캔치</option>
+                          <option value = "Taliyah">탈리야</option>
+                          <option value = "Talon">탈론</option>
+                          <option value = "Taric">타릭</option>
+                          <option value = "Teemo">티모</option>
+                          <option value = "Thresh">쓰레쉬</option>
+                          <option value = "Tristana">트리스타나</option>
+                          <option value = "Trundle">트런들</option>
+                          <option value = "Tryndamere">트린다미어</option>
+                          <option value = "TwistedFate">트위스트페이트</option>
+                          <option value = "Twitch">트위치</option>
+                          <option value = "Udyr">우디르</option>
+                          <option value = "Urgot">우르곳</option>
+                          <option value = "Varus">바루스</option>
+                          <option value = "Vayne">베인</option>
+                          <option value = "Veigar">베이가</option>
+                          <option value = "VelKoz">벨코즈</option>
+                          <option value = "Vi">바이</option>
+                          <option value = "Viktor">빅토르</option>
+                          <option value = "Vladimir">블라디미르</option>
+                          <option value = "Volibear">볼리베어</option>
+                          <option value = "Warwick">워윅</option>
+                          <option value = "Wukong">오공</option>
+                          <option value = "Xayah">자야</option>
+                          <option value = "Xerath">제라스</option>
+                          <option value = "XinZhao">신짜오</option>
+                          <option value = "Yasuo">야스오</option>
+                          <option value = "Yorick">요릭</option>
+                          <option value = "Zac">자크</option>
+                          <option value = "Zed">제드</option>
+                          <option value = "Ziggs">직스</option>
+                          <option value = "Zilean">질리언</option>
+                          <option value = "Zoe">조이</option>
+                          <option value = "Zyra">자이라</option>
+                        </select>
+                        <br/>
+                      </p>
+                    </th>
+
+                    <th>
+                <p class="lead">
+                  TOP :
+                  <select name="ETOPchampion">
+                    <option value = " "></option>
+                    <option value = "Aatrox">아트록스</option>
+                    <option value = "Ahri">아리</option>
+                    <option value = "Alistar">알리스타</option>
+                    <option value = "Amumu">아무무</option>
+                    <option value = "Anivia">애니비아</option>
+                    <option value = "Annie">애니</option>
+                    <option value = "Ashe">애쉬</option>
+                    <option value = "AurelionSol">아우렐리온 솔</option>
+                    <option value = "Azir">아지르</option>
+                    <option value = "Bard">바드</option>
+                    <option value = "Blitzcrank">블리츠크랭크</option>
+                    <option value = "Brand">브랜드</option>
+                    <option value = "Barum">브라움</option>
+                    <option value = "Caitlyn">케이틀린</option>
+                    <option value = "Camille">카밀</option>
+                    <option value = "Cassiopeia">카시오페아</option>
+                    <option value = "ChoGath">초가스</option>
+                    <option value = "Corki">코르키</option>
+                    <option value = "Darius">다리우스</option>
+                    <option value = "Diana">다이애나</option>
+                    <option value = "DrMundo">문도박사</option>
+                    <option value = "Draven">드레이븐</option>
+                    <option value = "Ekko">에코</option>
+                    <option value = "Elise">엘리스</option>
+                    <option value = "Evelynn">이블린</option>
+                    <option value = "Ezreal">이즈리얼</option>
+                    <option value = "Fiddlesticks">피들스틱</option>
+                    <option value = "Fiora">피오라</option>
+                    <option value = "Fizz">피즈</option>
+                    <option value = "Galio">갈리오</option>
+                    <option value = "Gangplank">갱플랭크</option>
+                    <option value = "Garen">가랜</option>
+                    <option value = "Gnar">나르</option>
+                    <option value = "Gragas">그라가스</option>
+                    <option value = "Graves">그레이브즈</option>
+                    <option value = "Hecarim">헤카림</option>
+                    <option value = "Heimerdinger">하이머딩거</option>
+                    <option value = "Illaoi">일라오이</option>
+                    <option value = "Irelia">이렐리아</option>
+                    <option value = "Ivern">아이번</option>
+                    <option value = "Janna">잔나</option>
+                    <option value = "JarvanIV">자르반4세</option>
+                    <option value = "Jax">잭스</option>
+                    <option value = "Jayce">제이스</option>
+                    <option value = "Jhin">진</option>
+                    <option value = "Jinx">징크스</option>
+                    <option value = "KaiSa">카이사</option>
+                    <option value = "Kalista">칼리스타</option>
+                    <option value = "Karma">카르마</option>
+                    <option value = "Karthus">카서스</option>
+                    <option value = "Kassadin">카사딘</option>
+                    <option value = "Katarina">카타리나</option>
+                    <option value = "Kayle">케일</option>
+                    <option value = "Kayn">케인</option>
+                    <option value = "Kennen">케넨</option>
+                    <option value = "KhaZix">카직스</option>
+                    <option value = "Kindred">킨드레드</option>
+                    <option value = "Kled">클래드</option>
+                    <option value = "KogMaw">코그모</option>
+                    <option value = "LeBlanc">르블랑</option>
+                    <option value = "LeeSin">리신</option>
+                    <option value = "Leona">레오나</option>
+                    <option value = "Lissandra">리산드라</option>
+                    <option value = "Lucian">루시안</option>
+                    <option value = "Lulu">룰루</option>
+                    <option value = "Lux">럭스</option>
+                    <option value = "Malphite">말파이트</option>
+                    <option value = "Malzahar">말자하</option>
+                    <option value = "Maokai">마오카이</option>
+                    <option value = "MasterYi">마스터이</option>
+                    <option value = "MissFortune">미스포춘</option>
+                    <option value = "Mordekaiser">모데카이저</option>
+                    <option value = "Morgana">모르가나</option>
+                    <option value = "Nami">나미</option>
+                    <option value = "Nasus">나서스</option>
+                    <option value = "Nautilus">노틸러스</option>
+                    <option value = "Nidalee">니달리</option>
+                    <option value = "Nocturne">녹턴</option>
+                    <option value = "NunuWillump">누누와윌럼프</option>
+                    <option value = "Olaf">올라프</option>
+                    <option value = "Orianna">오리아나</option>
+                    <option value = "Ornn">오른</option>
+                    <option value = "Pantheon">판테온</oPantheonption>
+                    <option value = "Poppy">뽀삐</option>
+                    <option value = "Pyke">파이크</option>
+                    <option value = "Quinn">퀸</option>
+                    <option value = "Rakan">라칸</option>
+                    <option value = "Rammus">람머스</option>
+                    <option value = "RekSai">렉사이</option>
+                    <option value = "Renekton">레넥톤</option>
+                    <option value = "Rengar">렝가</option>
+                    <option value = "Riven">리븐</option>
+                    <option value = "Rumble">럼블</option>
+                    <option value = "Ryze">라이즈</option>
+                    <option value = "Sejuani">세주아니</option>
+                    <option value = "Shaco">샤코</option>
+                    <option value = "Shen">쉔</option>
+                    <option value = "Shyvana">쉬바나</option>
+                    <option value = "Singed">신지드</option>
+                    <option value = "Sion">사이온</option>
+                    <option value = "Sivir">시비르</option>
+                    <option value = "Skarner">스카너</option>
+                    <option value = "Sona">소나</option>
+                    <option value = "Soraka">소라카</option>
+                    <option value = "Swain">스웨인</option>
+                    <option value = "Syndra">신드라</option>
+                    <option value = "TahmKench">탐캔치</option>
+                    <option value = "Taliyah">탈리야</option>
+                    <option value = "Talon">탈론</option>
+                    <option value = "Taric">타릭</option>
+                    <option value = "Teemo">티모</option>
+                    <option value = "Thresh">쓰레쉬</option>
+                    <option value = "Tristana">트리스타나</option>
+                    <option value = "Trundle">트런들</option>
+                    <option value = "Tryndamere">트린다미어</option>
+                    <option value = "TwistedFate">트위스트페이트</option>
+                    <option value = "Twitch">트위치</option>
+                    <option value = "Udyr">우디르</option>
+                    <option value = "Urgot">우르곳</option>
+                    <option value = "Varus">바루스</option>
+                    <option value = "Vayne">베인</option>
+                    <option value = "Veigar">베이가</option>
+                    <option value = "VelKoz">벨코즈</option>
+                    <option value = "Vi">바이</option>
+                    <option value = "Viktor">빅토르</option>
+                    <option value = "Vladimir">블라디미르</option>
+                    <option value = "Volibear">볼리베어</option>
+                    <option value = "Warwick">워윅</option>
+                    <option value = "Wukong">오공</option>
+                    <option value = "Xayah">자야</option>
+                    <option value = "Xerath">제라스</option>
+                    <option value = "XinZhao">신짜오</option>
+                    <option value = "Yasuo">야스오</option>
+                    <option value = "Yorick">요릭</option>
+                    <option value = "Zac">자크</option>
+                    <option value = "Zed">제드</option>
+                    <option value = "Ziggs">직스</option>
+                    <option value = "Zilean">질리언</option>
+                    <option value = "Zoe">조이</option>
+                    <option value = "Zyra">자이라</option>
+                  </select>
+                  <br/>
+
+                    JUNGLE :
+                  <select name="EJUNGLEchampion">
+                    <option value = " "></option>
+                    <option value = "Aatrox">아트록스</option>
+                    <option value = "Ahri">아리</option>
+                    <option value = "Alistar">알리스타</option>
+                    <option value = "Amumu">아무무</option>
+                    <option value = "Anivia">애니비아</option>
+                    <option value = "Annie">애니</option>
+                    <option value = "Ashe">애쉬</option>
+                    <option value = "AurelionSol">아우렐리온 솔</option>
+                    <option value = "Azir">아지르</option>
+                    <option value = "Bard">바드</option>
+                    <option value = "Blitzcrank">블리츠크랭크</option>
+                    <option value = "Brand">브랜드</option>
+                    <option value = "Barum">브라움</option>
+                    <option value = "Caitlyn">케이틀린</option>
+                    <option value = "Camille">카밀</option>
+                    <option value = "Cassiopeia">카시오페아</option>
+                    <option value = "ChoGath">초가스</option>
+                    <option value = "Corki">코르키</option>
+                    <option value = "Darius">다리우스</option>
+                    <option value = "Diana">다이애나</option>
+                    <option value = "DrMundo">문도박사</option>
+                    <option value = "Draven">드레이븐</option>
+                    <option value = "Ekko">에코</option>
+                    <option value = "Elise">엘리스</option>
+                    <option value = "Evelynn">이블린</option>
+                    <option value = "Ezreal">이즈리얼</option>
+                    <option value = "Fiddlesticks">피들스틱</option>
+                    <option value = "Fiora">피오라</option>
+                    <option value = "Fizz">피즈</option>
+                    <option value = "Galio">갈리오</option>
+                    <option value = "Gangplank">갱플랭크</option>
+                    <option value = "Garen">가랜</option>
+                    <option value = "Gnar">나르</option>
+                    <option value = "Gragas">그라가스</option>
+                    <option value = "Graves">그레이브즈</option>
+                    <option value = "Hecarim">헤카림</option>
+                    <option value = "Heimerdinger">하이머딩거</option>
+                    <option value = "Illaoi">일라오이</option>
+                    <option value = "Irelia">이렐리아</option>
+                    <option value = "Ivern">아이번</option>
+                    <option value = "Janna">잔나</option>
+                    <option value = "JarvanIV">자르반4세</option>
+                    <option value = "Jax">잭스</option>
+                    <option value = "Jayce">제이스</option>
+                    <option value = "Jhin">진</option>
+                    <option value = "Jinx">징크스</option>
+                    <option value = "KaiSa">카이사</option>
+                    <option value = "Kalista">칼리스타</option>
+                    <option value = "Karma">카르마</option>
+                    <option value = "Karthus">카서스</option>
+                    <option value = "Kassadin">카사딘</option>
+                    <option value = "Katarina">카타리나</option>
+                    <option value = "Kayle">케일</option>
+                    <option value = "Kayn">케인</option>
+                    <option value = "Kennen">케넨</option>
+                    <option value = "KhaZix">카직스</option>
+                    <option value = "Kindred">킨드레드</option>
+                    <option value = "Kled">클래드</option>
+                    <option value = "KogMaw">코그모</option>
+                    <option value = "LeBlanc">르블랑</option>
+                    <option value = "LeeSin">리신</option>
+                    <option value = "Leona">레오나</option>
+                    <option value = "Lissandra">리산드라</option>
+                    <option value = "Lucian">루시안</option>
+                    <option value = "Lulu">룰루</option>
+                    <option value = "Lux">럭스</option>
+                    <option value = "Malphite">말파이트</option>
+                    <option value = "Malzahar">말자하</option>
+                    <option value = "Maokai">마오카이</option>
+                    <option value = "MasterYi">마스터이</option>
+                    <option value = "MissFortune">미스포춘</option>
+                    <option value = "Mordekaiser">모데카이저</option>
+                    <option value = "Morgana">모르가나</option>
+                    <option value = "Nami">나미</option>
+                    <option value = "Nasus">나서스</option>
+                    <option value = "Nautilus">노틸러스</option>
+                    <option value = "Nidalee">니달리</option>
+                    <option value = "Nocturne">녹턴</option>
+                    <option value = "NunuWillump">누누와윌럼프</option>
+                    <option value = "Olaf">올라프</option>
+                    <option value = "Orianna">오리아나</option>
+                    <option value = "Ornn">오른</option>
+                    <option value = "Pantheon">판테온</oPantheonption>
+                    <option value = "Poppy">뽀삐</option>
+                    <option value = "Pyke">파이크</option>
+                    <option value = "Quinn">퀸</option>
+                    <option value = "Rakan">라칸</option>
+                    <option value = "Rammus">람머스</option>
+                    <option value = "RekSai">렉사이</option>
+                    <option value = "Renekton">레넥톤</option>
+                    <option value = "Rengar">렝가</option>
+                    <option value = "Riven">리븐</option>
+                    <option value = "Rumble">럼블</option>
+                    <option value = "Ryze">라이즈</option>
+                    <option value = "Sejuani">세주아니</option>
+                    <option value = "Shaco">샤코</option>
+                    <option value = "Shen">쉔</option>
+                    <option value = "Shyvana">쉬바나</option>
+                    <option value = "Singed">신지드</option>
+                    <option value = "Sion">사이온</option>
+                    <option value = "Sivir">시비르</option>
+                    <option value = "Skarner">스카너</option>
+                    <option value = "Sona">소나</option>
+                    <option value = "Soraka">소라카</option>
+                    <option value = "Swain">스웨인</option>
+                    <option value = "Syndra">신드라</option>
+                    <option value = "TahmKench">탐캔치</option>
+                    <option value = "Taliyah">탈리야</option>
+                    <option value = "Talon">탈론</option>
+                    <option value = "Taric">타릭</option>
+                    <option value = "Teemo">티모</option>
+                    <option value = "Thresh">쓰레쉬</option>
+                    <option value = "Tristana">트리스타나</option>
+                    <option value = "Trundle">트런들</option>
+                    <option value = "Tryndamere">트린다미어</option>
+                    <option value = "TwistedFate">트위스트페이트</option>
+                    <option value = "Twitch">트위치</option>
+                    <option value = "Udyr">우디르</option>
+                    <option value = "Urgot">우르곳</option>
+                    <option value = "Varus">바루스</option>
+                    <option value = "Vayne">베인</option>
+                    <option value = "Veigar">베이가</option>
+                    <option value = "VelKoz">벨코즈</option>
+                    <option value = "Vi">바이</option>
+                    <option value = "Viktor">빅토르</option>
+                    <option value = "Vladimir">블라디미르</option>
+                    <option value = "Volibear">볼리베어</option>
+                    <option value = "Warwick">워윅</option>
+                    <option value = "Wukong">오공</option>
+                    <option value = "Xayah">자야</option>
+                    <option value = "Xerath">제라스</option>
+                    <option value = "XinZhao">신짜오</option>
+                    <option value = "Yasuo">야스오</option>
+                    <option value = "Yorick">요릭</option>
+                    <option value = "Zac">자크</option>
+                    <option value = "Zed">제드</option>
+                    <option value = "Ziggs">직스</option>
+                    <option value = "Zilean">질리언</option>
+                    <option value = "Zoe">조이</option>
+                    <option value = "Zyra">자이라</option>
+                  </select>
+                  <br/>
+                   MID :
+                  <select name="EMIDchampion">
+                    <option value = " "></option>
+                    <option value = "Aatrox">아트록스</option>
+                    <option value = "Ahri">아리</option>
+                    <option value = "Alistar">알리스타</option>
+                    <option value = "Amumu">아무무</option>
+                    <option value = "Anivia">애니비아</option>
+                    <option value = "Annie">애니</option>
+                    <option value = "Ashe">애쉬</option>
+                    <option value = "AurelionSol">아우렐리온 솔</option>
+                    <option value = "Azir">아지르</option>
+                    <option value = "Bard">바드</option>
+                    <option value = "Blitzcrank">블리츠크랭크</option>
+                    <option value = "Brand">브랜드</option>
+                    <option value = "Barum">브라움</option>
+                    <option value = "Caitlyn">케이틀린</option>
+                    <option value = "Camille">카밀</option>
+                    <option value = "Cassiopeia">카시오페아</option>
+                    <option value = "ChoGath">초가스</option>
+                    <option value = "Corki">코르키</option>
+                    <option value = "Darius">다리우스</option>
+                    <option value = "Diana">다이애나</option>
+                    <option value = "DrMundo">문도박사</option>
+                    <option value = "Draven">드레이븐</option>
+                    <option value = "Ekko">에코</option>
+                    <option value = "Elise">엘리스</option>
+                    <option value = "Evelynn">이블린</option>
+                    <option value = "Ezreal">이즈리얼</option>
+                    <option value = "Fiddlesticks">피들스틱</option>
+                    <option value = "Fiora">피오라</option>
+                    <option value = "Fizz">피즈</option>
+                    <option value = "Galio">갈리오</option>
+                    <option value = "Gangplank">갱플랭크</option>
+                    <option value = "Garen">가랜</option>
+                    <option value = "Gnar">나르</option>
+                    <option value = "Gragas">그라가스</option>
+                    <option value = "Graves">그레이브즈</option>
+                    <option value = "Hecarim">헤카림</option>
+                    <option value = "Heimerdinger">하이머딩거</option>
+                    <option value = "Illaoi">일라오이</option>
+                    <option value = "Irelia">이렐리아</option>
+                    <option value = "Ivern">아이번</option>
+                    <option value = "Janna">잔나</option>
+                    <option value = "JarvanIV">자르반4세</option>
+                    <option value = "Jax">잭스</option>
+                    <option value = "Jayce">제이스</option>
+                    <option value = "Jhin">진</option>
+                    <option value = "Jinx">징크스</option>
+                    <option value = "KaiSa">카이사</option>
+                    <option value = "Kalista">칼리스타</option>
+                    <option value = "Karma">카르마</option>
+                    <option value = "Karthus">카서스</option>
+                    <option value = "Kassadin">카사딘</option>
+                    <option value = "Katarina">카타리나</option>
+                    <option value = "Kayle">케일</option>
+                    <option value = "Kayn">케인</option>
+                    <option value = "Kennen">케넨</option>
+                    <option value = "KhaZix">카직스</option>
+                    <option value = "Kindred">킨드레드</option>
+                    <option value = "Kled">클래드</option>
+                    <option value = "KogMaw">코그모</option>
+                    <option value = "LeBlanc">르블랑</option>
+                    <option value = "LeeSin">리신</option>
+                    <option value = "Leona">레오나</option>
+                    <option value = "Lissandra">리산드라</option>
+                    <option value = "Lucian">루시안</option>
+                    <option value = "Lulu">룰루</option>
+                    <option value = "Lux">럭스</option>
+                    <option value = "Malphite">말파이트</option>
+                    <option value = "Malzahar">말자하</option>
+                    <option value = "Maokai">마오카이</option>
+                    <option value = "MasterYi">마스터이</option>
+                    <option value = "MissFortune">미스포춘</option>
+                    <option value = "Mordekaiser">모데카이저</option>
+                    <option value = "Morgana">모르가나</option>
+                    <option value = "Nami">나미</option>
+                    <option value = "Nasus">나서스</option>
+                    <option value = "Nautilus">노틸러스</option>
+                    <option value = "Nidalee">니달리</option>
+                    <option value = "Nocturne">녹턴</option>
+                    <option value = "NunuWillump">누누와윌럼프</option>
+                    <option value = "Olaf">올라프</option>
+                    <option value = "Orianna">오리아나</option>
+                    <option value = "Ornn">오른</option>
+                    <option value = "Pantheon">판테온</oPantheonption>
+                    <option value = "Poppy">뽀삐</option>
+                    <option value = "Pyke">파이크</option>
+                    <option value = "Quinn">퀸</option>
+                    <option value = "Rakan">라칸</option>
+                    <option value = "Rammus">람머스</option>
+                    <option value = "RekSai">렉사이</option>
+                    <option value = "Renekton">레넥톤</option>
+                    <option value = "Rengar">렝가</option>
+                    <option value = "Riven">리븐</option>
+                    <option value = "Rumble">럼블</option>
+                    <option value = "Ryze">라이즈</option>
+                    <option value = "Sejuani">세주아니</option>
+                    <option value = "Shaco">샤코</option>
+                    <option value = "Shen">쉔</option>
+                    <option value = "Shyvana">쉬바나</option>
+                    <option value = "Singed">신지드</option>
+                    <option value = "Sion">사이온</option>
+                    <option value = "Sivir">시비르</option>
+                    <option value = "Skarner">스카너</option>
+                    <option value = "Sona">소나</option>
+                    <option value = "Soraka">소라카</option>
+                    <option value = "Swain">스웨인</option>
+                    <option value = "Syndra">신드라</option>
+                    <option value = "TahmKench">탐캔치</option>
+                    <option value = "Taliyah">탈리야</option>
+                    <option value = "Talon">탈론</option>
+                    <option value = "Taric">타릭</option>
+                    <option value = "Teemo">티모</option>
+                    <option value = "Thresh">쓰레쉬</option>
+                    <option value = "Tristana">트리스타나</option>
+                    <option value = "Trundle">트런들</option>
+                    <option value = "Tryndamere">트린다미어</option>
+                    <option value = "TwistedFate">트위스트페이트</option>
+                    <option value = "Twitch">트위치</option>
+                    <option value = "Udyr">우디르</option>
+                    <option value = "Urgot">우르곳</option>
+                    <option value = "Varus">바루스</option>
+                    <option value = "Vayne">베인</option>
+                    <option value = "Veigar">베이가</option>
+                    <option value = "VelKoz">벨코즈</option>
+                    <option value = "Vi">바이</option>
+                    <option value = "Viktor">빅토르</option>
+                    <option value = "Vladimir">블라디미르</option>
+                    <option value = "Volibear">볼리베어</option>
+                    <option value = "Warwick">워윅</option>
+                    <option value = "Wukong">오공</option>
+                    <option value = "Xayah">자야</option>
+                    <option value = "Xerath">제라스</option>
+                    <option value = "XinZhao">신짜오</option>
+                    <option value = "Yasuo">야스오</option>
+                    <option value = "Yorick">요릭</option>
+                    <option value = "Zac">자크</option>
+                    <option value = "Zed">제드</option>
+                    <option value = "Ziggs">직스</option>
+                    <option value = "Zilean">질리언</option>
+                    <option value = "Zoe">조이</option>
+                    <option value = "Zyra">자이라</option>
+                  </select>
+                  <br/>
+                    ADCARRY :
+                  <select name="EADCARRYchampion">
+                    <option value = " "></option>
+                    <option value = "Aatrox">아트록스</option>
+                    <option value = "Ahri">아리</option>
+                    <option value = "Alistar">알리스타</option>
+                    <option value = "Amumu">아무무</option>
+                    <option value = "Anivia">애니비아</option>
+                    <option value = "Annie">애니</option>
+                    <option value = "Ashe">애쉬</option>
+                    <option value = "AurelionSol">아우렐리온 솔</option>
+                    <option value = "Azir">아지르</option>
+                    <option value = "Bard">바드</option>
+                    <option value = "Blitzcrank">블리츠크랭크</option>
+                    <option value = "Brand">브랜드</option>
+                    <option value = "Barum">브라움</option>
+                    <option value = "Caitlyn">케이틀린</option>
+                    <option value = "Camille">카밀</option>
+                    <option value = "Cassiopeia">카시오페아</option>
+                    <option value = "ChoGath">초가스</option>
+                    <option value = "Corki">코르키</option>
+                    <option value = "Darius">다리우스</option>
+                    <option value = "Diana">다이애나</option>
+                    <option value = "DrMundo">문도박사</option>
+                    <option value = "Draven">드레이븐</option>
+                    <option value = "Ekko">에코</option>
+                    <option value = "Elise">엘리스</option>
+                    <option value = "Evelynn">이블린</option>
+                    <option value = "Ezreal">이즈리얼</option>
+                    <option value = "Fiddlesticks">피들스틱</option>
+                    <option value = "Fiora">피오라</option>
+                    <option value = "Fizz">피즈</option>
+                    <option value = "Galio">갈리오</option>
+                    <option value = "Gangplank">갱플랭크</option>
+                    <option value = "Garen">가랜</option>
+                    <option value = "Gnar">나르</option>
+                    <option value = "Gragas">그라가스</option>
+                    <option value = "Graves">그레이브즈</option>
+                    <option value = "Hecarim">헤카림</option>
+                    <option value = "Heimerdinger">하이머딩거</option>
+                    <option value = "Illaoi">일라오이</option>
+                    <option value = "Irelia">이렐리아</option>
+                    <option value = "Ivern">아이번</option>
+                    <option value = "Janna">잔나</option>
+                    <option value = "JarvanIV">자르반4세</option>
+                    <option value = "Jax">잭스</option>
+                    <option value = "Jayce">제이스</option>
+                    <option value = "Jhin">진</option>
+                    <option value = "Jinx">징크스</option>
+                    <option value = "KaiSa">카이사</option>
+                    <option value = "Kalista">칼리스타</option>
+                    <option value = "Karma">카르마</option>
+                    <option value = "Karthus">카서스</option>
+                    <option value = "Kassadin">카사딘</option>
+                    <option value = "Katarina">카타리나</option>
+                    <option value = "Kayle">케일</option>
+                    <option value = "Kayn">케인</option>
+                    <option value = "Kennen">케넨</option>
+                    <option value = "KhaZix">카직스</option>
+                    <option value = "Kindred">킨드레드</option>
+                    <option value = "Kled">클래드</option>
+                    <option value = "KogMaw">코그모</option>
+                    <option value = "LeBlanc">르블랑</option>
+                    <option value = "LeeSin">리신</option>
+                    <option value = "Leona">레오나</option>
+                    <option value = "Lissandra">리산드라</option>
+                    <option value = "Lucian">루시안</option>
+                    <option value = "Lulu">룰루</option>
+                    <option value = "Lux">럭스</option>
+                    <option value = "Malphite">말파이트</option>
+                    <option value = "Malzahar">말자하</option>
+                    <option value = "Maokai">마오카이</option>
+                    <option value = "MasterYi">마스터이</option>
+                    <option value = "MissFortune">미스포춘</option>
+                    <option value = "Mordekaiser">모데카이저</option>
+                    <option value = "Morgana">모르가나</option>
+                    <option value = "Nami">나미</option>
+                    <option value = "Nasus">나서스</option>
+                    <option value = "Nautilus">노틸러스</option>
+                    <option value = "Nidalee">니달리</option>
+                    <option value = "Nocturne">녹턴</option>
+                    <option value = "NunuWillump">누누와윌럼프</option>
+                    <option value = "Olaf">올라프</option>
+                    <option value = "Orianna">오리아나</option>
+                    <option value = "Ornn">오른</option>
+                    <option value = "Pantheon">판테온</oPantheonption>
+                    <option value = "Poppy">뽀삐</option>
+                    <option value = "Pyke">파이크</option>
+                    <option value = "Quinn">퀸</option>
+                    <option value = "Rakan">라칸</option>
+                    <option value = "Rammus">람머스</option>
+                    <option value = "RekSai">렉사이</option>
+                    <option value = "Renekton">레넥톤</option>
+                    <option value = "Rengar">렝가</option>
+                    <option value = "Riven">리븐</option>
+                    <option value = "Rumble">럼블</option>
+                    <option value = "Ryze">라이즈</option>
+                    <option value = "Sejuani">세주아니</option>
+                    <option value = "Shaco">샤코</option>
+                    <option value = "Shen">쉔</option>
+                    <option value = "Shyvana">쉬바나</option>
+                    <option value = "Singed">신지드</option>
+                    <option value = "Sion">사이온</option>
+                    <option value = "Sivir">시비르</option>
+                    <option value = "Skarner">스카너</option>
+                    <option value = "Sona">소나</option>
+                    <option value = "Soraka">소라카</option>
+                    <option value = "Swain">스웨인</option>
+                    <option value = "Syndra">신드라</option>
+                    <option value = "TahmKench">탐캔치</option>
+                    <option value = "Taliyah">탈리야</option>
+                    <option value = "Talon">탈론</option>
+                    <option value = "Taric">타릭</option>
+                    <option value = "Teemo">티모</option>
+                    <option value = "Thresh">쓰레쉬</option>
+                    <option value = "Tristana">트리스타나</option>
+                    <option value = "Trundle">트런들</option>
+                    <option value = "Tryndamere">트린다미어</option>
+                    <option value = "TwistedFate">트위스트페이트</option>
+                    <option value = "Twitch">트위치</option>
+                    <option value = "Udyr">우디르</option>
+                    <option value = "Urgot">우르곳</option>
+                    <option value = "Varus">바루스</option>
+                    <option value = "Vayne">베인</option>
+                    <option value = "Veigar">베이가</option>
+                    <option value = "VelKoz">벨코즈</option>
+                    <option value = "Vi">바이</option>
+                    <option value = "Viktor">빅토르</option>
+                    <option value = "Vladimir">블라디미르</option>
+                    <option value = "Volibear">볼리베어</option>
+                    <option value = "Warwick">워윅</option>
+                    <option value = "Wukong">오공</option>
+                    <option value = "Xayah">자야</option>
+                    <option value = "Xerath">제라스</option>
+                    <option value = "XinZhao">신짜오</option>
+                    <option value = "Yasuo">야스오</option>
+                    <option value = "Yorick">요릭</option>
+                    <option value = "Zac">자크</option>
+                    <option value = "Zed">제드</option>
+                    <option value = "Ziggs">직스</option>
+                    <option value = "Zilean">질리언</option>
+                    <option value = "Zoe">조이</option>
+                    <option value = "Zyra">자이라</option>
+                  </select>
+                  <br/>
+
+                  SUPPORT :
+                  <select name="ESUPPORTchampion">
+                    <option value = " "></option>
+                    <option value = "Aatrox">아트록스</option>
+                    <option value = "Ahri">아리</option>
+                    <option value = "Alistar">알리스타</option>
+                    <option value = "Amumu">아무무</option>
+                    <option value = "Anivia">애니비아</option>
+                    <option value = "Annie">애니</option>
+                    <option value = "Ashe">애쉬</option>
+                    <option value = "AurelionSol">아우렐리온 솔</option>
+                    <option value = "Azir">아지르</option>
+                    <option value = "Bard">바드</option>
+                    <option value = "Blitzcrank">블리츠크랭크</option>
+                    <option value = "Brand">브랜드</option>
+                    <option value = "Barum">브라움</option>
+                    <option value = "Caitlyn">케이틀린</option>
+                    <option value = "Camille">카밀</option>
+                    <option value = "Cassiopeia">카시오페아</option>
+                    <option value = "ChoGath">초가스</option>
+                    <option value = "Corki">코르키</option>
+                    <option value = "Darius">다리우스</option>
+                    <option value = "Diana">다이애나</option>
+                    <option value = "DrMundo">문도박사</option>
+                    <option value = "Draven">드레이븐</option>
+                    <option value = "Ekko">에코</option>
+                    <option value = "Elise">엘리스</option>
+                    <option value = "Evelynn">이블린</option>
+                    <option value = "Ezreal">이즈리얼</option>
+                    <option value = "Fiddlesticks">피들스틱</option>
+                    <option value = "Fiora">피오라</option>
+                    <option value = "Fizz">피즈</option>
+                    <option value = "Galio">갈리오</option>
+                    <option value = "Gangplank">갱플랭크</option>
+                    <option value = "Garen">가랜</option>
+                    <option value = "Gnar">나르</option>
+                    <option value = "Gragas">그라가스</option>
+                    <option value = "Graves">그레이브즈</option>
+                    <option value = "Hecarim">헤카림</option>
+                    <option value = "Heimerdinger">하이머딩거</option>
+                    <option value = "Illaoi">일라오이</option>
+                    <option value = "Irelia">이렐리아</option>
+                    <option value = "Ivern">아이번</option>
+                    <option value = "Janna">잔나</option>
+                    <option value = "JarvanIV">자르반4세</option>
+                    <option value = "Jax">잭스</option>
+                    <option value = "Jayce">제이스</option>
+                    <option value = "Jhin">진</option>
+                    <option value = "Jinx">징크스</option>
+                    <option value = "KaiSa">카이사</option>
+                    <option value = "Kalista">칼리스타</option>
+                    <option value = "Karma">카르마</option>
+                    <option value = "Karthus">카서스</option>
+                    <option value = "Kassadin">카사딘</option>
+                    <option value = "Katarina">카타리나</option>
+                    <option value = "Kayle">케일</option>
+                    <option value = "Kayn">케인</option>
+                    <option value = "Kennen">케넨</option>
+                    <option value = "KhaZix">카직스</option>
+                    <option value = "Kindred">킨드레드</option>
+                    <option value = "Kled">클래드</option>
+                    <option value = "KogMaw">코그모</option>
+                    <option value = "LeBlanc">르블랑</option>
+                    <option value = "LeeSin">리신</option>
+                    <option value = "Leona">레오나</option>
+                    <option value = "Lissandra">리산드라</option>
+                    <option value = "Lucian">루시안</option>
+                    <option value = "Lulu">룰루</option>
+                    <option value = "Lux">럭스</option>
+                    <option value = "Malphite">말파이트</option>
+                    <option value = "Malzahar">말자하</option>
+                    <option value = "Maokai">마오카이</option>
+                    <option value = "MasterYi">마스터이</option>
+                    <option value = "MissFortune">미스포춘</option>
+                    <option value = "Mordekaiser">모데카이저</option>
+                    <option value = "Morgana">모르가나</option>
+                    <option value = "Nami">나미</option>
+                    <option value = "Nasus">나서스</option>
+                    <option value = "Nautilus">노틸러스</option>
+                    <option value = "Nidalee">니달리</option>
+                    <option value = "Nocturne">녹턴</option>
+                    <option value = "NunuWillump">누누와윌럼프</option>
+                    <option value = "Olaf">올라프</option>
+                    <option value = "Orianna">오리아나</option>
+                    <option value = "Ornn">오른</option>
+                    <option value = "Pantheon">판테온</oPantheonption>
+                    <option value = "Poppy">뽀삐</option>
+                    <option value = "Pyke">파이크</option>
+                    <option value = "Quinn">퀸</option>
+                    <option value = "Rakan">라칸</option>
+                    <option value = "Rammus">람머스</option>
+                    <option value = "RekSai">렉사이</option>
+                    <option value = "Renekton">레넥톤</option>
+                    <option value = "Rengar">렝가</option>
+                    <option value = "Riven">리븐</option>
+                    <option value = "Rumble">럼블</option>
+                    <option value = "Ryze">라이즈</option>
+                    <option value = "Sejuani">세주아니</option>
+                    <option value = "Shaco">샤코</option>
+                    <option value = "Shen">쉔</option>
+                    <option value = "Shyvana">쉬바나</option>
+                    <option value = "Singed">신지드</option>
+                    <option value = "Sion">사이온</option>
+                    <option value = "Sivir">시비르</option>
+                    <option value = "Skarner">스카너</option>
+                    <option value = "Sona">소나</option>
+                    <option value = "Soraka">소라카</option>
+                    <option value = "Swain">스웨인</option>
+                    <option value = "Syndra">신드라</option>
+                    <option value = "TahmKench">탐캔치</option>
+                    <option value = "Taliyah">탈리야</option>
+                    <option value = "Talon">탈론</option>
+                    <option value = "Taric">타릭</option>
+                    <option value = "Teemo">티모</option>
+                    <option value = "Thresh">쓰레쉬</option>
+                    <option value = "Tristana">트리스타나</option>
+                    <option value = "Trundle">트런들</option>
+                    <option value = "Tryndamere">트린다미어</option>
+                    <option value = "TwistedFate">트위스트페이트</option>
+                    <option value = "Twitch">트위치</option>
+                    <option value = "Udyr">우디르</option>
+                    <option value = "Urgot">우르곳</option>
+                    <option value = "Varus">바루스</option>
+                    <option value = "Vayne">베인</option>
+                    <option value = "Veigar">베이가</option>
+                    <option value = "VelKoz">벨코즈</option>
+                    <option value = "Vi">바이</option>
+                    <option value = "Viktor">빅토르</option>
+                    <option value = "Vladimir">블라디미르</option>
+                    <option value = "Volibear">볼리베어</option>
+                    <option value = "Warwick">워윅</option>
+                    <option value = "Wukong">오공</option>
+                    <option value = "Xayah">자야</option>
+                    <option value = "Xerath">제라스</option>
+                    <option value = "XinZhao">신짜오</option>
+                    <option value = "Yasuo">야스오</option>
+                    <option value = "Yorick">요릭</option>
+                    <option value = "Zac">자크</option>
+                    <option value = "Zed">제드</option>
+                    <option value = "Ziggs">직스</option>
+                    <option value = "Zilean">질리언</option>
+                    <option value = "Zoe">조이</option>
+                    <option value = "Zyra">자이라</option>
+                  </select>
+                  <br/>
+                </p>
+                  </th>
+                </tr>
+              </table>
+
+
+
+                <input type = "submit" value = "전송" />
+                <input type = "reset" value = "초기화" />
+
+
+
+
+              </form>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    {% if has_winrate %}
+    <section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>아군의 승률</h2>
+            {% for v in team1 %}
+              <p>{{ v }}</p>
+            {% endfor %}
+            <p class="lead"> this team's Win-Rate is {{ winrate }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>적군의 승률</h2>
+            {% for v in team2 %}
+              <p>{{ v }}</p>
+            {% endfor %}
+            <p class="lead"> this team's Win-Rate is {{ enemy_winrate }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Team 7</h2>
+            <p class="lead"> ehgus6260@ajou.ac.kr </p>
+            <p class="lead"> rhdrlvnd@ajou.ac.kr </p>
+            <p class="lead"> jiwon0929@ajou.ac.kr </p>
+            <p class="lead"> dlwjddms0102@ajou.ac.kr </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
